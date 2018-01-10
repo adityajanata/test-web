@@ -1,0 +1,27 @@
+.bg-parent{
+	height: auto;
+	width: 900px;
+	background-color: tomato;
+	color: yellow;
+	text-align: center;
+	position: fixed;
+	margin-top: 100px;
+}
+
+.bg-child{
+	height: auto;
+	width: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: -50px;
+	margin-top: -10px;
+	/* box-shadow: 0 0 100px; */
+}
+
+.bg-child > a{
+	text-decoration: none !important;
+	font-size: 50px;
+	color: black;
+}
+
